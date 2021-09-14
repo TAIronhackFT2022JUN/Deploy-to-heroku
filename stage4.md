@@ -6,11 +6,20 @@ Transferir tu sevidor de ExpressJS local a producción supone _desplegar_ los ar
 
 Debido a que el archivo `.env` no será desplegado, es necesario habilitar las variables de entorno en tu aplicación de Heroku.
 
-Para ello, accede mediante la terminal al directorio raíz de tu servidor y asegúrate de que está enlazado al Git de servidor mediante `heroku apps:info`. Declara entonces cada una de las variables de entorno de tu archivo `.env` con el comando `heroku config:set NOMBREVARIABLE=”VALORVARIABLE” --app nombreApp`. Ejemplo:
+Para ello, tenemos 2 opciones: 
+
+1 - mediante la terminal al directorio raíz de tu servidor y asegúrate de que está enlazado al Git de servidor mediante `heroku apps:info`. Declara entonces cada una de las variables de entorno de tu archivo `.env` con el comando `heroku config:set NOMBREVARIABLE=”VALORVARIABLE” --app nombreApp`. Ejemplo:
 
        heroku config:set CLOUDINARY_NAME="german-cloud" --app donuts-planet
   
 No olvides entrecomillar el valor de cada variable. Puedes consultar el valor de cualquier variable de entorno con el comando `heroku config:get NOMBREVARIABLE` 
+
+2 - Nos diriijimos la interfaz de heroku en https://id.heroku.com/login 
+       - Logueamos y seleccionamos el proyecto
+       - Pestaña Setting y presionar Reveal config Vars
+  <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631632251/Captura_de_pantalla_2021-09-14_a_las_17.02.00_p0ryy8.png" width="400"/><br/><br/>
+  <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631632258/Captura_de_pantalla_2021-09-14_a_las_17.04.10_lafnts.png" width="400"/><br/><br/>
+
 
 ## Paso a producción
 
