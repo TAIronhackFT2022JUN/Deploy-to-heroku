@@ -28,8 +28,7 @@ MongoDB permite exportar como archivos JSON tus colecciones de una BBDD local. E
     - Sustituye `<database>` por el nombre de la base de datos
     - Sustituye `<file>` por el nombre del archivo que creará MongoDB con tu colección, con extensión `.json`.
   <br/>
-  <br/>
-   
+  <br/>   
     # Ejemplo: sacando la coleccion `users` de la bbdd `aug2021`
   <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631626496/Captura_de_pantalla_2021-09-14_a_las_15.34.31_bxsoma.png" width="300"/>
   <br/>
