@@ -20,6 +20,7 @@ No olvides entrecomillar el valor de cada variable. Puedes consultar el valor de
 
   <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631632251/Captura_de_pantalla_2021-09-14_a_las_17.02.00_p0ryy8.png" width="400"/><br/><br/>
 
+       - Y insertamos los valores como si del .env se tratase.
   <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631632258/Captura_de_pantalla_2021-09-14_a_las_17.04.10_lafnts.png" width="400"/><br/><br/>
 
 
