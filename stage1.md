@@ -22,7 +22,7 @@ MongoDB Atlas ofrece un servicio gratuito para alojar bases de datos en remoto, 
   <img src="https://res.cloudinary.com/ironhack-german/image/upload/v1601659536/Captura_de_pantalla_2020-10-02_a_las_19.25.28.png" width="700"/><br/><br/>
   Seleccionar *Add IP Address.* <br/><br/>
   · Recomendado no usar carácteres especiales en la contraseña
-7. En la sección *Create a database user* de la ventana modal, rellenar el nombre de usuario para acceder a la base de datos y una contraseña. <br/> - Seleccionar *Create database User*:
+7. En la sección *Create a database user* de la ventana modal, rellenar el nombre de usuario para acceder a la base de datos y una contraseña. <br/> - Seleccionar *Create database User*: <br/>
   <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631623590/Captura_de_pantalla_2021-09-02_a_las_16.45.24_q28sjj.png" width="700"/><br/><br/> 
 8. A continuación, seleccionar *Choose a connection method*. <br/><br/>
 9. Entre los métodos de conexión, seleccionar *Connect using MongoDB Compass*:
