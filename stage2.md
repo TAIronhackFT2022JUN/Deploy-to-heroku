@@ -57,9 +57,9 @@ MongoDB Atlas permite alojar y gestionar bases de datos en sus servidores a trav
 
    Ejemplo:
  
-     `mongoimport --uri="mongodb+srv://your_user:your_pwd.ooyyy.mongodb.net/school" --collection=students --file=students-collection.json`
+     `mongoimport --uri="mongodb+srv://your_user:your_pwd.ooyyy.mongodb.net/aug2021" --collection=users --file=users-collection.json --drop` 
      
-     Si ya habías importado antes esta colección, incluye el flag `--drop` para vaciarla previo a re-importarla y evitar que se acumulen los registros.
+     Si ya habías importado antes esta colección, el flag `--drop` borrará y re-importará para evitar que se acumulen los registros.
 
 3. En Mongo Compass, actualiza la vista y comprueba que se ha creado tanto tu colección como los documentos que la conforman. Lo que estás viendo es ya tu base de datos remota.
 4. Repite el proceso para cada colección, cambiando el nombre de la colección y el nombre del archivo en cada comando.
@@ -71,7 +71,7 @@ Despídete de tu base de datos local porque en adelante trabajarás contra la ba
 
 1. Accede al archivo `.env` de tu aplicación de Express, y crea la variable de entorno `DB_REMOTE` con el string de conexión de MongoDB Atlas como valor. 
 
-    `DB_REMOTE=mongodb+srv://your_user:your_pwd.ooyyy.mongodb.net/school`
+    `DB_REMOTE=mongodb+srv://<username>:<password>@cluster0.zp0cj.mongodb.net/<base de datos>`
 
 2. Modifica el método `connect()` de tu aplicación, tomando como valor de conexión esta variable de entorno:
 
