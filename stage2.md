@@ -33,7 +33,9 @@ MongoDB permite exportar como archivos JSON tus colecciones de una BBDD local. E
     - Ejemplo: sacando la coleccion users the aug2021 
   <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631626496/Captura_de_pantalla_2021-09-14_a_las_15.34.31_bxsoma.png" width="300"/>
   <br/>
+
      - `mongoexport --collection=users --db=aug2021 --out=users-collection.json`
+  
   <br/>
   <br/>
 
