@@ -71,7 +71,9 @@ Despídete de tu base de datos local porque en adelante trabajarás contra la ba
 
 1. Accede al archivo `.env` de tu aplicación de Express, y crea la variable de entorno `DB_REMOTE` con el string de conexión de MongoDB Atlas como valor. 
 
-    `DB_REMOTE=mongodb+srv://<username>:<password>@cluster0.zp0cj.mongodb.net/<base de datos>`
+    ```
+    DB_REMOTE=mongodb+srv://<username>:<password>@cluster0.zp0cj.mongodb.net/<base de datos>
+    ```
 
 2. Modifica el método `connect()` de tu aplicación, tomando como valor de conexión esta variable de entorno:
 
