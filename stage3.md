@@ -37,7 +37,7 @@ Crearemos ahora una aplicación de Heroku donde alojar nuestro servidor de Expre
    heroku create donuts-planet
    ````
 
-2. Ahora enlaza el directorio `/client` en el que te encuentras al Git de la aplicación de Heroku mediante el comando 
+2. Ahora debemos enlazar este heroku create que acabamos de hacer con nuestro git, con el siguiente comando, recuerda estar en la misma carpeta donde hiciste el heroku create
 
    ````
    heroku git:remote -a donuts-planet
