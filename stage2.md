@@ -18,17 +18,23 @@ MongoDB permite exportar como archivos JSON tus colecciones de una BBDD local. E
 
 1. Accede mediante la terminal al directorio donde deseas crear los archivos JSON de tus colecciones.
 
-2. Haz uso del comando `mongoexport` de MongoDB para exportarte la primera colección, siguiendo esta sintaxis:
 
-   `mongoexport --collection=<collection> --db=<database> --out=<file>`
+2. Haz uso del comando `mongoexport` de MongoDB para exportarte la primera colección, siguiendo esta sintaxis:
     
+    - Ejemplo raw:
+   `mongoexport --collection=<collection> --db=<database> --out=<file>`
+
     - Sustituye `<collection>` por el nombre de la colección
     - Sustituye `<database>` por el nombre de la base de datos
     - Sustituye `<file>` por el nombre del archivo que creará MongoDB con tu colección, con extensión `.json`.
-
-   Ejemplo:
- 
-     `mongoexport --collection=students --db=school --out=students-collection.json`
+  <br/>
+  <br/>
+   
+    - Ejemplo: sacando la coleccion users the aug2021 
+  <img src="https://res.cloudinary.com/dnpvaaivi/image/upload/v1631626496/Captura_de_pantalla_2021-09-14_a_las_15.34.31_bxsoma.png" width="700"/><br/>
+   `mongoexport --collection=users --db=aug2021 --out=users-collection.json`
+  <br/>
+  <br/>
 
 3. Comprueba cómo se ha creado el archivo con los datos y repite el proceso para colección, cambiando el nombre de la colección y el nombre del archivo en cada una.
 
